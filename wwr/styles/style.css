@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik+Dirt&display=swap');
+
+:root {
+    --primary-color: #264653;
+    --secondary-color: #2a9d8f;
+    --accent1-color: #e9c46a;
+    --accent2-color: #e76f51;
+
+    --heading-font: "Rubik Dirt";
+    --paragraph-font: "Rubik Dirt";
+    --nav-font: "Rock Salt", Helvetica, sans-serif;
+
+    --headline-color-on-white: #e76f51;
+    --headline-color-on-color: #e76f51;
+    --paragraph-color-on-white: #e9c46a;
+    --paragraph-color-on-color: #e9c46a;
+    --paragraph-background-color: #396E94;
+    --nav-link-color: #000000;
+    --nav-background-color: #e76f51;
+    --nav-hover-link-color: #2a9d8f;
+    --nav-hover-background-color: #e9c46a;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color:#2a9d8f;
+}
+
+header {
+    background-color:#264653;
+}
+
+nav a {
+    text-align: center;
+    color:#e76f51;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#2a9d8f;
+    color:#e9c46a;
+}
+
+.home-title {
+    color:#e76f51;
+}
+
+.book {
+    background-color:#2a9d8f;
+    color:#e76f51;
+    text-decoration: underline;
+}
+
+.book:hover {
+    background-color:#264653; 
+    color:#e9c46a;
+}
+
+.join {
+    background-color:#2a9d8f;
+    color:#e76f51;
+    text-decoration: underline;
+}
+
+.join:hover {
+    background-color:#264653;
+    color:#e9c46a;
+}
+
+#background {
+    height: 725px;
+    background-color:#2a9d8f;
+}
+
+.msg {
+    background-color:#2a9d8f;
+}
+
+.msg h2 {
+    color:#e76f51;
+}
+
+.msg p {
+    color:#e76f51;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+h4 {
+    color:#e76f51;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+}
+
+footer {
+    background-color:#2a9d8f;
+    color:#e76f51;
+}
+
+footer a {
+    color:#e76f51;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color:#e9c46a;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
