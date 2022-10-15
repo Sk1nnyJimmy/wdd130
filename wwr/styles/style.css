@@ -28,16 +28,25 @@
 
 body {
     background-color:#2a9d8f;
+    font-family: "Rock Salt", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color:#264653;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color:#e76f51;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -47,12 +56,19 @@ nav a:hover {
 
 .home-title {
     color:#e76f51;
+    font-family: "Rubik Dirt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .book {
     background-color:#2a9d8f;
     color:#e76f51;
     text-decoration: underline;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -64,6 +80,10 @@ nav a:hover {
     background-color:#2a9d8f;
     color:#e76f51;
     text-decoration: underline;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -76,20 +96,49 @@ nav a:hover {
     background-color:#2a9d8f;
 }
 
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 .msg {
     background-color:#2a9d8f;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color:#e76f51;
+    font-family: "Rubik Dirt";
 }
 
 .msg p {
     color:#e76f51;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #hero-msg h1 {
     text-align: center;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -110,16 +159,19 @@ main section {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer {
     background-color:#2a9d8f;
     color:#e76f51;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     color:#e76f51;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a:hover {
@@ -131,5 +183,9 @@ footer p {
 }
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
