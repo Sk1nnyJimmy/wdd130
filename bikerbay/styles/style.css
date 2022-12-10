@@ -185,6 +185,27 @@ h2 {
     width: 100%;
 }
 
+.center {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.event-grid {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.event-card {
+    background-color: whitesmoke;
+}
+
+
 #feedback {
     background-color: antiquewhite;
     position: absolute;
