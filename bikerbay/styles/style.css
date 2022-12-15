@@ -169,6 +169,7 @@ h2 {
     width: 69%;
     margin: 10px;
     background-color: whitesmoke;
+    padding: 15px;
     grid-column: 1 / 4;
     grid-row: 1;
 }
@@ -177,6 +178,7 @@ h2 {
     width: 69%;
     margin: 10px;
     background-color: whitesmoke;
+    padding: 15px;
     grid-column: 1 / 4;
     grid-row: 2;
 }
@@ -203,6 +205,7 @@ h2 {
 
 .event-card {
     background-color: whitesmoke;
+    padding: 15px;
 }
 
 
@@ -222,7 +225,7 @@ h2 {
 
 form {
     margin: 0 auto;
-    width: 400 px;
+    width: 400px;
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
